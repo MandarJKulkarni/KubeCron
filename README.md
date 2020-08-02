@@ -8,7 +8,7 @@ Prerequisites:
 Steps to follow:
 
     Create a simple (or any) Python script which you want to call through the Kubernetes cron.
-    (It could be a Python service as well)
+    (It could be a micro-service as well)
 
     Create dockerfile to create the image containing your Python script.
 
