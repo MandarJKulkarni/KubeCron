@@ -16,3 +16,6 @@ spec:
             command:
             - python
           restartPolicy: OnFailure
+  successfulJobsHistoryLimit: 1
+  failedJobsHistoryLimit: 10
+  concurrencyPolicy: Allow
