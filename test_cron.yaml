@@ -10,7 +10,7 @@ spec:
         spec:
           containers:
           - name: test-cron
-            image: 'gcr.io/gcp-projec/test-cron:latest'
+            image: 'gcr.io/gcp-project/test-cron:latest'
             args:
             - ./simple_python_script.py
             command:
