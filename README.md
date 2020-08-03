@@ -20,3 +20,6 @@ Steps to follow:
     Create a Kubernetes cron yaml to call the script at a specified interval
 
     Run 'kubectl apply -f test_cron.yaml' in the Google Cloud shell on the GCP to which you have access
+            
+    To delete the cron you can run
+       'kubectl delete cronjob test-cron'
