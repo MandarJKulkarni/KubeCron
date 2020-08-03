@@ -11,6 +11,8 @@ Steps to follow:
     (It could be a micro-service as well)
 
     Create dockerfile to create the image containing your Python script.
+    
+    Build the docker image and push it to Google container registry
 
     Create a Kubernetes cron yaml to call the script at a specified interval
 
