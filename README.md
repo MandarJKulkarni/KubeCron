@@ -18,8 +18,11 @@ Steps to follow:
        docker push gcr.io/gcp-project/test-cron
 
     Create a Kubernetes cron yaml to call the script at a specified interval
+    
+    Login to the Google Cloud Console and set the project where you want to create cronjob.
+       'gcloud config set project my-project'
 
-    Run 'kubectl apply -f test_cron.yaml' in the Google Cloud shell on the GCP to which you have access
+    Run 'kubectl apply -f test_cron.yaml' in the Google Cloud shell
             
     To delete the cron you can run
        'kubectl delete cronjob test-cron'
